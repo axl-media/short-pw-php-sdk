@@ -1,12 +1,12 @@
 <?php
 
-namespace AXLMedia\UrlShortener;
+namespace AXLMedia\ShortPw;
 
-use AXLMedia\UrlShortener\UrlShortener;
+use AXLMedia\ShortPw\ShortPw;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Contracts\Container\Container;
 
-class UrlShortenerServiceProvider extends ServiceProvider
+class ShortPwServiceProvider extends ServiceProvider
 {
     public function boot()
     {

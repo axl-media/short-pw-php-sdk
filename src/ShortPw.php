@@ -1,8 +1,8 @@
 <?php
 
-namespace AXLMedia\UrlShortener;
+namespace AXLMedia\ShortPw;
 
-class UrlShortener
+class ShortPw
 {
     /**
      * The service API url.

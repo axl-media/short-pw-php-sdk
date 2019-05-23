@@ -1,33 +1,13 @@
 # Installation
-In your `composer.json`, add into your `repositories` the following vcs-type object:
-```json
-...
-"repositories": [
-  {
-    "type": "vcs",
-    "url": "git@gitlab.com:axl-media/url-shortener-php-sdk.git"
-  }
-],
-"require": {
-    ...
-}
-```
-
-Run the following command to update the repositories:
 ```bash
-$ composer update
-```
-
-Now you should install the package as-is:
-```bash
-$ composer require axl-media/url-shortener-php-sdk
+$ composer require axl-media/short-pw-php-sdk
 ```
 
 # Usage
 ```php
-use AXLMedia\UrlShortener\UrlShortener;
+use AXLMedia\ShortPw\ShortPw;
 
-$api = new UrlShortener('[your_api_key]');
+$api = new ShortPw('[your_api_key]');
 
 // Returns an array
 $api->shortenUrl('https://test.com');

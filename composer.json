@@ -3,7 +3,7 @@
     "description": "URL Shortener API wrapper for PHP.",
     "keywords": [
     ],
-    "homepage": "https://gitlab.com/axl-media/url-shortener-laravel-sdk",
+    "homepage": "https://github.com/axl-media/short-pw-php-sdk",
     "license": "MIT",
     "authors": [
     ],
@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "AXLMedia\\UrlShortener\\": "src"
+            "AXLMedia\\ShortPw\\": "src"
         }
     },
     "autoload-dev": {
@@ -28,7 +28,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "AXLMedia\\UrlShortener\\UrlShortenerServiceProvider"
+                "AXLMedia\\ShortPw\\ShortPwServiceProvider"
             ]
         }
     },
