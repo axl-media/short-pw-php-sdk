@@ -61,6 +61,6 @@ class ShortPw
     {
         $data = $this->shortenUrl($longUrl);
 
-        return $data['data'] ?? $data['data']['short_url'];
+        return isset($data['data']) ? $data['data']['short_url'] : '';
     }
 }
