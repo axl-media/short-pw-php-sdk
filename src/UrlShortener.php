@@ -8,7 +8,7 @@ class UrlShortener
      * The service API url.
      * @var string
      */
-    const API_URL = 'http://s.hort.pw/api';
+    const API_URL = 'https://s.hort.pw/api';
 
     /**
      * The API key for the serivce.
